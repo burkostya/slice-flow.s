@@ -1,0 +1,33 @@
+{
+  "author": "Konstantin Burykin <burkostya@gmail.com>",
+  "name": "splice-stream",
+  "description": "Splices flow of packets",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "publishConfig": {
+    "registry": "http://npm:5984/registry/_design/scratch/_rewrite"
+  },
+  "homepage": "http://gitlab/modules/splice-stream",
+  "repository": "git://gitlab:modules/splice-stream.git",
+  "bugs": "http://gitlab/modules/splice-stream/issues",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.21"
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "readable-stream": "~1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "chai": "~1.8.1"
+  },
+  "readmeFilename": "README.md"
+}
