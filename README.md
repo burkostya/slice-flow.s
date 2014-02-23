@@ -1,14 +1,14 @@
-# splice-stream
+# slice-stream
 
-Splices flow of packets
+Slices flow of packets
 
 ## Installation
 
-`npm install splice-stream`
+`npm install slice-stream`
 
 ## Usage
 
-`var stream = require('splice-stream')`
+`var stream = require('slice-stream')`
 
 ## API
 

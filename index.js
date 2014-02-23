@@ -1,1 +1,1 @@
-module.exports = require('./lib/splice-stream');
+module.exports = require('./lib/slice-stream');

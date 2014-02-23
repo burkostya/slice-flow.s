@@ -1,7 +1,7 @@
 {
   "author": "Konstantin Burykin <burkostya@gmail.com>",
-  "name": "splice-stream",
-  "description": "Splices flow of packets",
+  "name": "slice-stream",
+  "description": "Slices flow of packets",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -10,9 +10,9 @@
   "publishConfig": {
     "registry": "http://npm:5984/registry/_design/scratch/_rewrite"
   },
-  "homepage": "http://gitlab/modules/splice-stream",
-  "repository": "git://gitlab:modules/splice-stream.git",
-  "bugs": "http://gitlab/modules/splice-stream/issues",
+  "homepage": "http://gitlab/modules/slice-stream",
+  "repository": "git://gitlab:modules/slice-stream.git",
+  "bugs": "http://gitlab/modules/slice-stream/issues",
   "main": "index.js",
   "engines": {
     "node": ">= 0.10.21"
