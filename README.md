@@ -1,4 +1,4 @@
-# slice-stream
+# slice-flow.s
 
 Stream for slicing flow of packets
 
