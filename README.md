@@ -35,7 +35,7 @@ Creates transform stream that will slice input packets
 
 - range `Number or Array`. Must be one of 
   * `Number` negative or positive
-  * `[Number, Number]` numbers can be positive or negative, expect
+  * `[Number, Number]` numbers can be positive or negative, except
     one variant - `[negative, positive]`
 
 Note: ranges with negative bounds leads to buffering data.
