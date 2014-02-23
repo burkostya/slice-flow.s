@@ -1,18 +1,15 @@
 {
   "author": "Konstantin Burykin <burkostya@gmail.com>",
-  "name": "slice-stream",
-  "description": "Slices flow of packets",
+  "name": "slice-flow.s",
+  "description": "Stream for slicing flow of packets",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "test": "mocha"
   },
-  "publishConfig": {
-    "registry": "http://npm:5984/registry/_design/scratch/_rewrite"
-  },
-  "homepage": "http://gitlab/modules/slice-stream",
-  "repository": "git://gitlab:modules/slice-stream.git",
-  "bugs": "http://gitlab/modules/slice-stream/issues",
+  "homepage": "http://github.com/burkostya/slice-flow.s",
+  "repository": "git://github.com:burkostya/slice-flow.s",
+  "bugs": "http://github.com/burkostya/slice-flow.s/issues",
   "main": "index.js",
   "engines": {
     "node": ">= 0.10.21"
@@ -23,11 +20,13 @@
     "README.md"
   ],
   "dependencies": {
-    "readable-stream": "~1.1.0"
+    "readable-stream": "^1.1.0"
   },
   "devDependencies": {
-    "mocha": "~1.14.0",
-    "chai": "~1.8.1"
+    "mocha": "^1.17.0",
+    "chai": "^1.9.0",
+    "stream-spectrum": "^0.1.5",
+    "inspect-stream": "^0.1.0"
   },
   "readmeFilename": "README.md"
 }
