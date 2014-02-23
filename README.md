@@ -25,9 +25,18 @@ numbers({ from: 10, to: 20 })
   .pipe(inspect());
 ```
 
-## Usage
-
-`var stream = require('slice-flow.s')`
-
 ## API
 
+`var slice = require('slice-flow.s');`
+
+### var stream = slice(range)
+
+Creates transform stream that will slice input packets
+
+- range `Number or Array`. Must be one of 
+  * `Number` negative or positive
+  * `[Number, Number]` numbers can be positive or negative, expect
+    one variant - `[negative, positive]`
+
+Note: ranges with negative bounds leads to buffering data.
+Size of buffer is absolute value of first bound.
