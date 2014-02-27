@@ -14,6 +14,11 @@
   "engines": {
     "node": ">= 0.10.21"
   },
+  "keywords": [
+    "pipeland",
+    "stream",
+    "slice"
+  ],
   "files": [
     "lib",
     "index.js",
